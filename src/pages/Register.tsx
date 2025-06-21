@@ -105,7 +105,7 @@ function Register() {
         </p>
 
         {message && (
-          <div className="mb-4 text-sm text-center text-red-600">{message}</div>
+          <div className="mb-4 text-sm text-center text-green-600">{message}</div>
         )}
 
         <form onSubmit={handleSubmit} className="space-y-4">
